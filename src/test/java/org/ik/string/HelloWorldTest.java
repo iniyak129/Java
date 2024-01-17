@@ -1,4 +1,4 @@
-package org.iniya.string;
+package org.ik.string;
 
 import org.junit.jupiter.api.Test;
 

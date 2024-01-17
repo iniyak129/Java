@@ -1,4 +1,4 @@
-package org.iniya;
+package org.ik;
 
 public class MainTest {
 }
