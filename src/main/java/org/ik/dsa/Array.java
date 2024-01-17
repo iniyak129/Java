@@ -1,3 +1,3 @@
-package org.ik.oop;
+package org.ik.dsa;
 
 public interface Array { }

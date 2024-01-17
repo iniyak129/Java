@@ -1,9 +1,8 @@
-package org.ik.oop;
+package org.ik.dsa;
 
 public class IntArray implements Array {
-
-    private final int length;
     private final int[] array;
+    private final int length;
 
     IntArray(int[] array) {
         this.length = array.length;
@@ -16,5 +15,14 @@ public class IntArray implements Array {
 
     public int getLength() {
         return length;
+    }
+
+    int linearSearch(int searchKey) {
+        for (int i = 0; i < length; i++) {
+            if (array[i] == searchKey) {
+                return i;
+            }
+        }
+        return -1;
     }
 }
